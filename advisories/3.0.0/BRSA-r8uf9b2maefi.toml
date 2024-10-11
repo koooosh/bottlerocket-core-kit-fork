@@ -1,0 +1,18 @@
+[advisory]
+id = "BRSA-r8uf9b2maefi"
+title = "acpid CVE-2024-0000"
+cve = "CVE-2024-0000"
+severity = "moderate"
+description = "THIS IS A TEST BRSA."
+
+[[advisory.products]]
+package-name = "acpid"
+patched-version = "3.0.34"
+patched-release = "0"
+patched-epoch = "1"
+
+[updateinfo]
+author = "kushupad"
+issue-date = 2024-09-27T11:24:11Z
+arches = ["x86_64", "aarch64"]
+version = "3.0.0"
