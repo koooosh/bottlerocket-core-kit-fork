@@ -2,8 +2,8 @@ schema-version = 1
 kit = []
 
 [sdk]
-name = "bottlerocket-sdk"
-version = "0.60.0"
-vendor = "bottlerocket"
-source = "public.ecr.aws/bottlerocket/bottlerocket-sdk:v0.60.0"
-digest = "aVbABC86XWBbfyems1C3lrEhEvL1XmNt1hcwF0oAzSs="
+name = "thar-be-a-beta-sdk"
+version = "0.61.0"
+vendor = "kushupad"
+source = "999576413263.dkr.ecr.us-west-2.amazonaws.com/thar-be-a-beta-sdk:v0.61.0"
+digest = "ec26hP22cQgNjFdLM/r9L5qeDtC6T33KO+sb5oJNtR8="

@@ -4,7 +4,10 @@ release-version = "6.2.0"
 [vendor.bottlerocket]
 registry = "public.ecr.aws/bottlerocket"
 
+[vendor.kushupad]
+registry = "999576413263.dkr.ecr.us-west-2.amazonaws.com"
+
 [sdk]
-name = "bottlerocket-sdk"
-version = "0.60.0"
-vendor = "bottlerocket"
+name = "thar-be-a-beta-sdk"
+version = "0.61.0"
+vendor = "kushupad"
