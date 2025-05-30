@@ -100,7 +100,7 @@ Requires: (%{_cross_os}updog or %{_cross_os}image-feature(no-in-place-updates))
 
 Requires: (%{_cross_os}pluto if %{_cross_os}variant-family(aws-k8s))
 Requires: (%{_cross_os}shibaken if %{_cross_os}variant-platform(aws))
-Requires: (%{_cross_os}cfsignal if %{_cross_os}variant-platform(aws))
+Requires: (%{_cross_os}cfsignal if (%{_cross_os}variant-family(aws-k8s) or %{_cross_os}variant-family(aws-ecs)))
 
 Requires: (%{_cross_os}warm-pool-wait if %{_cross_os}variant-family(aws-k8s))
 
